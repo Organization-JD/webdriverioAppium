@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "iOS",
+      "enabled": true
+    },
+    {
+      "type": "object",
+      "name": "appium:options",
+      "value": {
+        "automationName": "XCUITest",
+        "platformVersion": "18.6",
+        "app": "/Users/juandavidcallataxisuarez/Projects/webdriverio/app/ios/MVCTodo.app",
+        "deviceName": "iPhone 16",
+        "noReset": true,
+        "showXcodeLog": true
+      },
+      "enabled": true
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "port": "4724"
+    },
+    "advanced": {},
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "mobitru": {},
+    "tvlabs": {},
+    "testcribe": {},
+    "webmate": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": [
+    "browserstack"
+  ]
+}
