@@ -1,0 +1,8 @@
+# folders
+node_modules
+logs
+
+# files
+.env
+*.app
+*.apk
