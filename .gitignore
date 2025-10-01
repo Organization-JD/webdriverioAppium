@@ -1,6 +1,8 @@
 # folders
 node_modules
 logs
+allure-results
+allure-report
 
 # files
 .env
