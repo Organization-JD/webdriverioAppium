@@ -4,7 +4,7 @@ config.user = process.env.BROWSERSTACK_USERNAME;
 config.key = process.env.BROWSERSTACK_ACCESS_KEY;
 config.hostname = "hub.browserstack.com";
 
-config.specs = ["../test/specs/android/test.e2e.js"];
+config.specs = ["../test/specs/android/delete-note.e2e.js"];
 
 config.services = [
   [
